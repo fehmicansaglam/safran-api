@@ -70,7 +70,7 @@ object Safran extends App {
   import system.dispatcher
 
   system.scheduler.schedule(0 milliseconds,
-    60 seconds,
+    60 minutes,
     fetcher,
     "fetch")
 
